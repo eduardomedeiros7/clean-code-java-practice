@@ -42,4 +42,10 @@ public List<double[]> getItems(List<double[]> list) {
         }
     }
     return list1;
+    
+    #### 3. Evite Desinformação (Avoid Disinformation)
+O código não deve "mentir" para o programador. 
+- **Não use nomes de tipos:** Evite chamar algo de `accountList` se for um array. Use apenas `accounts`.
+- **Cuidado com caracteres:** Letras como `l` (L) e `O` (O) podem ser confundidas com `1` e `0`.
+- **Diferencie nomes claramente:** Não crie variáveis com nomes quase idênticos que confundem o autocomplete do IntelliJ.
 }
