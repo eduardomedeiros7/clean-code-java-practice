@@ -36,3 +36,11 @@ O nome não deve sugerir algo que não é verdade.
 * **Caracteres Ambíguos:** Evite usar `l` (L minúsculo) ou `O` (Ó maiúsculo), pois se confundem com `1` e `0`.
 * **Diferenciação Clara:** Não use nomes quase idênticos (ex: `XYZControllerForHandlingStrings` vs `XYZControllerForStorageStrings`) que confundem o autocomplete do IntelliJ.
 * **Exemplo:** Implementado em `src/chapter02/AvoidDisinformation.java`.
+
+### 4. Use Nomes Pronunciáveis (Use Pronounceable Names)
+> "Se você não consegue pronunciar um nome, você não consegue discutir sobre ele sem parecer um idiota."
+
+A programação é uma atividade social. Nomes impronunciáveis dificultam a comunicação entre a equipe.
+* **Aprendizado:** Evite siglas ou contrações malucas (ex: `modymdhms`). Use palavras reais (ex: `modificationTimestamp`).
+* **Vantagem:** Facilita reuniões de revisão de código e ajuda a memória a reter o que aquela variável faz.
+* **Exemplo:** Implementado em `src/chapter02/PronounceableNames.java`.
