@@ -44,3 +44,11 @@ A programação é uma atividade social. Nomes impronunciáveis dificultam a com
 * **Aprendizado:** Evite siglas ou contrações malucas (ex: `modymdhms`). Use palavras reais (ex: `modificationTimestamp`).
 * **Vantagem:** Facilita reuniões de revisão de código e ajuda a memória a reter o que aquela variável faz.
 * **Exemplo:** Implementado em `src/chapter02/PronounceableNames.java`.
+
+### 5. Evite Codificações (Avoid Encodings)
+> "Não codifique o tipo ou o escopo no nome da variável. Deixe o código limpo e use as ferramentas (IDE) a seu favor."
+
+Informações técnicas sobre o tipo de dado não devem fazer parte do nome.
+* **Aprendizado:** Abandonei a "Notação Húngara" (ex: `sName` vira `name`) e prefixos de membros (ex: `m_age` vira `age`).
+* **Vantagem:** O nome foca no que a variável **representa**, e não em como ela é armazenada na memória. Se o tipo mudar, o nome continua correto.
+* **Exemplo:** Implementado em `src/chapter02/AvoidEncoding.java`.
