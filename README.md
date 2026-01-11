@@ -68,3 +68,12 @@ Enquanto classes são os substantivos (objetos), os métodos são as ações que
 * **Aprendizado:** Use verbos como `postPayment`, `deletePage` ou `save`. Para acessar atributos, siga o padrão `get`, `set` e `is`.
 * **Vantagem:** O código se torna uma leitura lógica de "Sujeito + Verbo + Objeto" (ex: `order.calculateTotal()`).
 * **Exemplo:** Implementado em `src/chapter02/MethodsAndClasses.java`.
+
+###  A Regra de Ouro: Substantivos vs Verbos
+> "O código limpo deve ser lido como uma prosa bem escrita."
+
+Aprendi a distinguir as responsabilidades linguísticas no código:
+- **Classes (Substantivos):** Representam os objetos e entidades do sistema. Devem ser nomes como `Customer`, `Order`, `Task`.
+- **Métodos (Verbos):** Representam as ações que os objetos realizam. Devem ser nomes como `save()`, `processPayment()` ou `isValid()`.
+
+**Por que isso importa?** Porque transforma chamadas de código em frases lógicas (ex: `payment.process()`), facilitando a leitura e o entendimento imediato da intenção do programador.
