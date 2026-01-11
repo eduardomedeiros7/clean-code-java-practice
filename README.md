@@ -60,3 +60,11 @@ Um programador profissional usa sua inteligência para escrever códigos que **t
 * **Aprendizado:** Não use letras soltas (como `a`, `b`, `c`) para economizar digitação. O tempo gasto lendo código é muito maior que o tempo gasto escrevendo.
 * **Vantagem:** O código torna-se autoexplicativo e reduz a fadiga mental de quem está dando manutenção.
 * **Exemplo:** Implementado em `src/chapter02/MentalMapping.java`.
+
+### 7. Nomes de Métodos (Method Names)
+> "Métodos devem ter nomes com verbos ou frases verbais."
+
+Enquanto classes são os substantivos (objetos), os métodos são as ações que esses objetos realizam.
+* **Aprendizado:** Use verbos como `postPayment`, `deletePage` ou `save`. Para acessar atributos, siga o padrão `get`, `set` e `is`.
+* **Vantagem:** O código se torna uma leitura lógica de "Sujeito + Verbo + Objeto" (ex: `order.calculateTotal()`).
+* **Exemplo:** Implementado em `src/chapter02/MethodsAndClasses.java`.
