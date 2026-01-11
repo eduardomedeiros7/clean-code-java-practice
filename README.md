@@ -52,3 +52,11 @@ Informações técnicas sobre o tipo de dado não devem fazer parte do nome.
 * **Aprendizado:** Abandonei a "Notação Húngara" (ex: `sName` vira `name`) e prefixos de membros (ex: `m_age` vira `age`).
 * **Vantagem:** O nome foca no que a variável **representa**, e não em como ela é armazenada na memória. Se o tipo mudar, o nome continua correto.
 * **Exemplo:** Implementado em `src/chapter02/AvoidEncoding.java`.
+
+### 6. Evite o Mapeamento Mental (Avoid Mental Mapping)
+> "O leitor não deve ter que traduzir mentalmente seus nomes de variáveis em outros nomes que ele já conhece."
+
+Um programador profissional usa sua inteligência para escrever códigos que **todos** entendam, em vez de usar nomes curtos que apenas ele compreende no momento.
+* **Aprendizado:** Não use letras soltas (como `a`, `b`, `c`) para economizar digitação. O tempo gasto lendo código é muito maior que o tempo gasto escrevendo.
+* **Vantagem:** O código torna-se autoexplicativo e reduz a fadiga mental de quem está dando manutenção.
+* **Exemplo:** Implementado em `src/chapter02/MentalMapping.java`.
