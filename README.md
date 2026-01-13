@@ -73,3 +73,10 @@ A clareza deve vir antes do entretenimento. Nomes que dependem de contexto cultu
 * **Aprendizado:** Em vez de usar nomes como `whack()` ou `byeBye()`, use termos diretos como `killProcess()` ou `abort()`.
 * **Vantagem:** O código se torna universal e profissional, facilitando o entendimento por qualquer programador, independente de sua cultura.
 * **Exemplo:** Implementado em `src/chapter02/DontBeCute.java`.
+
+### 9. Uma Palavra por Conceito (One Word per Concept)
+> "Escolha uma palavra para cada conceito abstrato e mantenha-a."
+
+* **Aprendizado:** Não use sinônimos diferentes para a mesma ação em classes distintas. Se você usa `get()` para buscar dados, não use `fetch()` ou `retrieve()` em outras partes do sistema para fazer a mesma coisa.
+* **Vantagem:** Torna o código previsível. O programador sabe que para buscar qualquer informação, o método sempre começará com a palavra padrão escolhida.
+* **Exemplo:** Implementado em `src/chapter02/WordPerConcept.java`.
